@@ -16,7 +16,7 @@ ENV BUNDLE_WITHOUT=native_ext
 
 # install locales and set to en_US.UTF-8. This is needed for running the CLI on some machines
 # such as singularity.
-RUN sudo apt-get update && apt-get install -y \
+RUN apt-get update && apt-get install -y \
         curl \
         vim \
         gdebi-core \
