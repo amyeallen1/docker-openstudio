@@ -1,4 +1,4 @@
-FROM ubuntu:18.04 AS base
+FROM michaelwetter/ubuntu-1804_jmodelica_trunk:latest AS base
 
 MAINTAINER Nicholas Long nicholas.long@nrel.gov
 
